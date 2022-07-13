@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+  width: 550px;
+  background-color: #ddd;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 5px;
+}
+.child-container {
+  width: 350px;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  outline: none;
+  border: 0;
+  border-radius: 3px;
+}
+button {
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  margin: 10px;
+}
